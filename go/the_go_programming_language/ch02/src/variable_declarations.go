@@ -39,4 +39,9 @@ func main() {
 	Note that at least one new value needs to be declared, in this case that's `f3`.
 	*/
 	f3, err := os.Open(name)
+
+	// The new(T) function will also create a new unamed variable of type T and return a pointer to it
+	p := new(int)
+	q := new(string)
+
 }
