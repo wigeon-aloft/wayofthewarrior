@@ -1,5 +1,5 @@
 // echo4 prints its command-line arguments.
-// This script also serves as a demo for the flags package
+// This script also serves as a demo for the flag package
 package main
 
 import (
